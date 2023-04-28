@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+list-style: none;
+text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 75px;
+    
+}
+.sec1{
+    height: 730px;
+    
+    background-image: url(../img/img_фон.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+nav{
+    
+ 
+    width: 80%;
+    margin: 0 auto;
+   padding-top: 13px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.bg_menu{
+color: aqua;
+}
+.bg_menu:hover{
+    background: gray;
+}
+nav a{
+    color: white;
+    transition: all 800ms ease-in-out;
+}
+.li_3 li:hover{ 
+
+    transform:scale(110%);
+}
+.li_3{
+   display: flex;
+    font-size: 15px;
+    
+    justify-content: space-between;
+    width: 300px;
+}
+.logo{
+    font-size: 49px;
+}
+.li_ru{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+   
+}
+.li_ru select{
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: transparent;
+    color: white;
+}
+.select_12{
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: transparent;
+    color: white;
+}
+.li_ru option{
+    cursor: pointer;
+    color: black;
+}
+.icon img{
+    cursor: pointer;
+    padding-left: 15px;
+    transition: all 600ms ease-in-out;
+}
+.icon img:hover{
+transform: scale(110%);
+}
+
+.centre{
+    color: white;
+   
+text-align: center;
+padding-top: 230px;
+}
+.centre h1{
+    font-size: 50px;
+}
+.centre p{
+    
+    margin-left: -20px;
+    font-size: 30px;
+
+}
+.img_centre{
+     text-align: center;
+    width: 200px;
+    height: 2px;
+    background-color: white;
+   margin: 0 auto;
+}
+.sec2{
+   
+    padding-top: 60px;
+    width: 100%;
+    height: 780px;
+
+
+}
+.img_sec2{
+    display: flex;
+    margin-top: 23px;
+    /* width: 1000px; */
+    
+}
+
+.div_1{
+
+    transition: all 600ms ease-in-out;
+}
+.div_1:hover{
+    transform: scale(112%);
+}
+.sec2_name{
+   
+}
+
+
+.div_2{
+    margin-left: 10px;
+    transition: all 600ms ease-in-out;
+}
+.div_2:hover{
+    transform: scale(112%);
+}
+.div_3{
+    transition: all 600ms ease-in-out;
+    margin-left: 10px;
+}
+.div_3:hover{
+    transform: scale(112%);
+
+}
+.div_4{
+    transition: all 600ms ease-in-out;
+    margin-left: 10px;
+}
+.div_4:hover{
+    transform: scale(112%);
+
+}
+.sec2_icon{
+    margin-top: -30px;
+}
+.img_sec2 p{
+    margin-top: -35px;
+    margin-left: 90px;
+font-size: 23px;
+color: white;
+}
+
+.about{
+    text-align: center;
+    margin-top: -100px;
+    
+}
+.about_pot{
+    font-size: 30px;
+}
+.about_form{
+    text-align: center;
+   padding-left: 300px;
+   width: 1200px; 
+   padding-top: 40px;
+}
+.about input{
+margin-top: 30px;
+padding-left: 20px;
+    width: 410px;
+    height: 40px;
+}
+.about  button{
+    height: 40px;
+    width: 410px;
+    
+    margin-top: 15px;
+  
+    margin-bottom: 15px;
+    color: #ffff;
+   background-color:#E0BEA2;
+   border: none;
+   transition: all 600ms ease-in-out;
+}
+.about button:hover{
+transform:rotateY(200deg);
+}
+
+.foot{
+width: 100%;
+margin-top: 60px;
+line-height: 30px;
+
+}
+.contacts{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 2260px;
+    height: 280px;
+    margin: 0 auto;
+}
+
+
+
+.contact img{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.contact a{
+    color:  #252525;
+    padding-top: 20px;
+   
+   font-weight: 200;
+font-size: 14px;
+line-height: 14px;
+    
+}
+.contact_p {
+    padding-top: 20px;
+}
+
+.form_p{
+    width: 400px;
+    margin: 0 auto;
+    
+}
+@media (max-width:1152px){
+    .div_4{
+        display: none;
+    }
+    .li_ru{
+        display: none;
+    }
+    .li_3{
+        display: none;
+    }
+}
+@media (max-width:1000px){
+    .div_2{
+        display: none;
+    }
+}
+@media (max-width:750px){
+   .icon3{
+    display: none;
+   }
+   .icon4{
+    display: none;
+   }
+}
+@media (max-width:690px){
+    .div_1{
+        display: none;
+    }
+    .sec2_icon{
+        display: none;
+    }
+    .div_3{
+       margin: 0 auto;
+    }
+}
+@media (max-width:800px){
+    .contacts{
+        display: block;
+        text-align: center;
+    }
+}
+@media (max-width:390px){
+    .about input {
+        width: 300px;
+        padding: 0;
+    }
+    .about button {
+        width: 300px;
+        padding: 0;
+    }
+    .form_p{
+        width: 300px;
+    }
+    h2{
+        width: 0;
+    }
+    .icon{
+        display: none;
+    }
+    .sec2_name {
+        margin-left: 20px;
+    }
+}
